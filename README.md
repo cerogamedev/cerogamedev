@@ -31,26 +31,29 @@
 
 ```gcode
 ========================================================================================
-[AI CONTROLLER]: SENTINEL_FSM_v2.4 // ACTIVE STATE: [CHASE]
-[TARGET UNIT ]: Player (OXON Game Studio) // ALERT LEVEL: 87% // LATENCY: 1.2ms
+[AI CONTROLLER]: SENTINEL_FSM_v2.4 // ACTIVE STATE: ⚡ [CHASE] ⚡
+[LAST TRIGGER]: Handled command by @cerogamedev at 2026-07-27 11:50:30 UTC
 ========================================================================================
- [PATROL] -------(Player Spotted)------> [ALERT] -------(Target Locked)-------> [CHASE]
+ [PATROL] -------(Player Spotted)------> [ALERT] --------(Target Locked)------> [>>> CHASE <<<]
     ^                                                                            |
     |                                                                            v
  [IDLE] <-------(Target Lost)----------- [SEARCH] <------(Damage Taken)------- [ATTACK]
 ========================================================================================
 ```
 
-### 🎮 SIMULATION TRIGGERS & INPUT COMMANDS
-
 <div align="center">
 
-| Trigger Event | Target State | Condition |
-| :--- | :--- | :--- |
-| **`⚡ PLAYER_DETECTED`** | **`[CHASE]`** | Distance < 15m & Line of Sight True |
-| **`💥 DAMAGE_TAKEN`** | **`[ATTACK / COVER]`** | Health < 50% & Weapon Charged |
-| **`🔍 TARGET_LOST`** | **`[SEARCH]`** | Vision Blocked > 3.0s |
-| **`🔄 RESET_SYSTEM`** | **`[PATROL]`** | Threat Cleared |
+### 🔘 INTERACTIVE AI STATE CONTROLLER (CLICK TO TRIGGER)
+*Click any interactive button below to trigger a real-time state transition on this profile!*
+
+<p align="center">
+  <a href="https://github.com/cerogamedev/cerogamedev/issues/new?title=fsm:patrol&body=Triggering+AI+State+Transition+to+PATROL"><img src="https://img.shields.io/badge/TRIGGER-PATROL_STATE-FF007F?style=for-the-badge&logo=target&logoColor=white"/></a>
+  <a href="https://github.com/cerogamedev/cerogamedev/issues/new?title=fsm:alert&body=Triggering+AI+State+Transition+to+ALERT"><img src="https://img.shields.io/badge/TRIGGER-ALERT_STATE-FFA500?style=for-the-badge&logo=alert&logoColor=white"/></a>
+  <a href="https://github.com/cerogamedev/cerogamedev/issues/new?title=fsm:chase&body=Triggering+AI+State+Transition+to+CHASE"><img src="https://img.shields.io/badge/TRIGGER-CHASE_STATE-00F0FF?style=for-the-badge&logo=zap&logoColor=black"/></a>
+  <a href="https://github.com/cerogamedev/cerogamedev/issues/new?title=fsm:attack&body=Triggering+AI+State+Transition+to+ATTACK"><img src="https://img.shields.io/badge/TRIGGER-ATTACK_STATE-FF0000?style=for-the-badge&logo=crosshair&logoColor=white"/></a>
+  <a href="https://github.com/cerogamedev/cerogamedev/issues/new?title=fsm:search&body=Triggering+AI+State+Transition+to+SEARCH"><img src="https://img.shields.io/badge/TRIGGER-SEARCH_STATE-9D4EDD?style=for-the-badge&logo=search&logoColor=white"/></a>
+  <a href="https://github.com/cerogamedev/cerogamedev/issues/new?title=fsm:idle&body=Triggering+AI+State+Transition+to+IDLE"><img src="https://img.shields.io/badge/TRIGGER-RESET_IDLE-8B949E?style=for-the-badge&logo=power&logoColor=white"/></a>
+</p>
 
 </div>
 

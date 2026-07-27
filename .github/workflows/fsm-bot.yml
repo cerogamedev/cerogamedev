@@ -1,0 +1,41 @@
+name: Game AI State Machine Bot
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  update-fsm:
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, 'fsm:')
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Execute FSM State Transition
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ACTOR: ${{ github.actor }}
+        run: |
+          STATE="${ISSUE_TITLE#fsm:}"
+          python3 update_fsm_state.py "$STATE" "$ACTOR"
+
+      - name: Commit & Push Updated README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "feat(ai-bot): transition FSM state via issue payload [skip ci]" || exit 0
+          git push
+
+      - name: Close Issue & Reply
+        uses: peter-evans/close-issue@v2
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment: |
+            🤖 **Game AI Bot Update**: State transition successfully executed!
+            The Game AI FSM state has been updated in the README by @${{ github.actor }}.
