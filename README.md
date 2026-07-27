@@ -1,13 +1,16 @@
 <div align="center">
 
-  <!-- 3D Isometric Cyber Code City Data Visualization Banner -->
-  <img src="assets/isometric_code_city.jpg" width="100%" alt="3D Isometric Code City Data Visualization" style="border-radius: 12px;" />
+  <!-- Cyberpunk Waving Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00F0FF&height=180&section=header&text=CEREN%20//%20GAME%20DESIGNER&fontSize=38&fontColor=000000&animation=twinkle&fontAlignY=40" width="100%" />
+
+  <!-- Live Typing SVG -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1200&color=00F0FF&center=true&vcenter=true&width=700&height=50&lines=SYSTEM_ONLINE%3A+Game+Designer+%40+OXON;DYNAMIC_ENGINE%3A+Automated+3D+Metrics+%26+SVGs;SPECIALIZATION%3A+Player+UX+%7C+Economy+%7C+Shaders;READY%3A+Building+high-impact+player+experiences." alt="Dynamic Engine Typing SVG" />
+  </a>
 
   <br/><br/>
 
-  <h1>🌆 CEREN GÖR // GAME METRICS CITY</h1>
-  <h3><code>System Architect & Game Designer @ OXON</code></h3>
-
+  <!-- Quick Badges -->
   <p align="center">
     <a href="mailto:ingortigno@gmail.com"><img src="https://img.shields.io/badge/Console-ingortigno%40gmail.com-00F0FF?style=for-the-badge&logo=gmail&logoColor=black" /></a>
     <a href="https://linkedin.com/in/cerengor" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Ceren_Gör-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -18,63 +21,71 @@
 
 <br/>
 
-> *"Every line of code built is a skyscraper in the digital city of game architecture."*
+> *"Every commit is a structural block in the 3D landscape of game architecture."*
 
 ---
 
-## 🏙️ 3D METRICS CITY DIAGNOSTICS
+## 🏛️ 3D ISOMETRIC CONTRIBUTION EXTRUSION ENGINE
 
-```yaml
-City Sector: OXON Game Development District
-Primary Infrastructure: Unity 3D & 2D Engine
-Core Grid: C# Systems, ShaderLab, NavMesh Pathfinding
-Status: 🟢 ONLINE & Expanding High-Rise Code Towers
-```
+<div align="center">
 
----
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg">
+    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-gitblock.svg">
+    <img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="Ceren's 3D Isometric Contribution Engine" />
+  </picture>
 
-## 🏢 CITY DISTRICTS & SYSTEM MODULES
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🏛️ District 01: Core Gameplay & Systems</h3>
-      <ul>
-        <li><b>Mechanics Architecture:</b> Moment-to-moment gameplay loops and difficulty scaling.</li>
-        <li><b>Economy & Pacing:</b> Systemic balance models and player retention systems.</li>
-        <li><b>Visual & Audio Juice:</b> Haptic, screen shake, and visual feedback design.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚡ District 02: C# Technical Design</h3>
-      <ul>
-        <li><b>Engine Patterns:</b> FSM State Machines, Observer, Factory, and ScriptableObjects.</li>
-        <li><b>AI & Navigation:</b> NavMesh pathfinding and enemy decision trees.</li>
-        <li><b>Modular Codebase:</b> Scalable architecture for team collaboration.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎨 District 03: Shaders & VFX</h3>
-      <ul>
-        <li><b>Custom ShaderLab:</b> HLSL render passes and URP post-processing.</li>
-        <li><b>Hybrid Visuals:</b> 2D billboard graphics integrated into 3D environments.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏢 District 04: OXON Headquarters</h3>
-      <ul>
-        <li><b>Current Role:</b> Game Designer at <b>OXON</b>.</li>
-        <li><b>Scope:</b> Prototyping game loops, balancing player systems, and game direction.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+</div>
 
 ---
 
-## 🛠️ INFRASTRUCTURE & TECH STACK
+## 🎛️ LOWLIGHTER DYNAMIC METRICS DASHBOARD
+
+<div align="center">
+
+  <img src="https://github.com/cerogamedev/cerogamedev/blob/main/github-metrics.svg" width="100%" alt="Dynamic Metrics Engine" />
+
+</div>
+
+---
+
+## 🕹️ SYSTEM COMPONENTS & GAME DESIGN MODULES
+
+<details>
+<summary><b>📂 [Component 01]: Game Systems & Core Loops (Click to Expand)</b></summary>
+
+<br/>
+
+- **Core Gameplay Loops:** Designing moment-to-moment mechanics and long-term meta progression systems.
+- **Game Economy & Balance:** Resource management, difficulty curves (pacing & flow), and mathematical balancing models.
+- **Player Psychology & UX:** Creating responsive player input with satisfying feedback loops (Juice, Screen Shake, Audio-Visual Cues).
+
+</details>
+
+<details>
+<summary><b>📂 [Component 02]: Technical Design & C# Architecture (Click to Expand)</b></summary>
+
+<br/>
+
+- **Design Patterns in Unity:** State Machines (FSM), Observer Pattern, Command Pattern, Factory Pattern, and ScriptableObject architecture.
+- **Navigation & AI:** NavMesh pathfinding, AI behaviors, and enemy state management.
+- **Clean & Modular Code:** Extensible, clean C# codebase built for seamless developer collaboration.
+
+</details>
+
+<details>
+<summary><b>📂 [Component 03]: Shaders & Technical Art (Click to Expand)</b></summary>
+
+<br/>
+
+- **ShaderLab & Technical Art:** Custom HLSL / ShaderGraph solutions for stylized rendering and gameplay VFX.
+- **2D/3D Hybrid Visuals:** 2D billboard rendering and dynamic visual management within 3D environments.
+
+</details>
+
+---
+
+## 🛠️ EQUIPMENT & TECH STACK
 
 <div align="center">
 
@@ -106,5 +117,5 @@ Status: 🟢 ONLINE & Expanding High-Rise Code Towers
 ---
 
 <div align="center">
-  <sub>3D Metrics City • <b>OXON Game Studio</b> • Engineered by <b>Ceren Gör</b></sub>
+  <sub>Automated 3D & Dynamic SVG Engine • <b>OXON Game Studio</b> • <code>cerogamedev</code></sub>
 </div>
