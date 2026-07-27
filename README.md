@@ -1,115 +1,82 @@
 <div align="center">
 
-  <!-- Cyberpunk Waving Animated Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00F0FF&height=180&section=header&text=CEREN%20//%20GAME%20DESIGNER&fontSize=38&fontColor=000000&animation=twinkle&fontAlignY=40" width="100%" />
-
-  <!-- Canlı Daktilo Animasyonu (100% Reliable Typing SVG) -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1200&color=00F0FF&center=true&vcenter=true&width=700&height=50&lines=SYSTEM_ONLINE%3A+Game+Designer+%40+OXON;LOADING_MODULES%3A+Game+Systems+%7C+Core+Loops+%7C+C%23;SPECIALIZATION%3A+Player+UX+%7C+Economy+%7C+Shaders;READY%3A+Building+high-impact+player+experiences." alt="Cyberpunk Typing SVG" />
-  </a>
+  <!-- Custom Generated Pixel Art Game Designer Workstation Banner -->
+  <img src="assets/isometric_gamedev_room.jpg" width="100%" alt="Ceren - Game Designer Workstation" style="border-radius: 12px;" />
 
   <br/><br/>
 
-  <!-- Quick Links Badges -->
+  <h1>✦ CEREN GÖR ✦</h1>
+  <h3><code>Game Designer @ OXON</code> • <code>Systems & Mechanics Architect</code></h3>
+
   <p align="center">
-    <a href="mailto:ingortigno@gmail.com"><img src="https://img.shields.io/badge/TERMINAL_EMAIL-ingortigno%40gmail.com-00F0FF?style=for-the-badge&logo=gmail&logoColor=black" /></a>
-    <a href="https://linkedin.com/in/cerengor" target="_blank"><img src="https://img.shields.io/badge/LINKEDIN-Ceren_Gör-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-    <a href="https://github.com/cerogamedev"><img src="https://img.shields.io/badge/GITHUB-cerogamedev-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+    <a href="mailto:ingortigno@gmail.com"><img src="https://img.shields.io/badge/Email-ingortigno%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+    <a href="https://linkedin.com/in/cerengor" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Ceren_Gör-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://github.com/cerogamedev"><img src="https://img.shields.io/badge/GitHub-cerogamedev-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   </p>
 
 </div>
 
 <br/>
 
----
-
-## 🖥️ CYBERPUNK NEOFETCH // SYSTEM DIAGNOSTICS
-
-```gcode
-                     .::-::.                     USER        : cerogamedev
-                 .::-        -::.                ROLE        : Game Designer @ OXON
-              .::-              -::.             OS          : OXON Game Lab OS v6.0
-           .::-   .-============-.  -::.         SHELL       : C# / Unity 6 / ShaderLab
-        .::-   .-=================-.  -::.       ENGINE      : Unity 3D & 2D
-     .::-   .-=======================-.  -::.    STATUS      : ☕ 100% Operational
-  .::-   .-=============================-.  -::. ARCHITECTURE: OOP, Design Patterns & ScriptableObjects
- -==============================================- FOCUS       : Core Loops, System Balance & Visual Juice
-```
+> *"Games are not just loops of feedback — they are digital emotions engineered through systems, flow, and design."*
 
 ---
 
-## ⚡ CYBERPUNK SYSTEM MODULES (CLICK TO DECRYPT)
+## 🕹️ GAME DESIGN CRAFT & FOCUS
 
-<details>
-<summary><b>🔥 [SYS_MODULE_01]: CORE GAMEPLAY LOOPS & ECONOMY SYSTEM (DECRYPT)</b></summary>
-
-<br/>
-
-```yaml
-Module: Core Mechanics & Progression
-Status: Active @ OXON
-Capabilities:
-  - Moment-To-Moment Gameplay Loops & Tactical Pacing
-  - Game Economy, Resource Management & Difficulty Curves
-  - High-Retention Meta Progression Systems
-  - Satisfying Player Feedback (Screen Shake, Haptics, Audio Cues)
-```
-
-</details>
-
-<details>
-<summary><b>🧠 [SYS_MODULE_02]: SYSTEMIC ARCHITECTURE & C# ENGINE TOOLING (DECRYPT)</b></summary>
-
-<br/>
-
-```yaml
-Module: Technical Game Design
-Status: Active @ OXON
-Capabilities:
-  - Robust Finite State Machines (FSM) & Behavior Trees
-  - Event-Driven Architecture (Observer & Command Patterns)
-  - Modular Data Management via ScriptableObjects
-  - Advanced NavMesh Systems & Enemy AI Pathfinding
-```
-
-</details>
-
-<details>
-<summary><b>✨ [SYS_MODULE_03]: CUSTOM SHADERS & VISUAL JUICE (DECRYPT)</b></summary>
-
-<br/>
-
-```yaml
-Module: Technical Art & Graphics
-Status: Active @ OXON
-Capabilities:
-  - Custom HLSL / ShaderGraph Visual Effects & Stylized Renderers
-  - Post-Processing Pipelines & URP Custom Passes
-  - 2D/3D Hybrid Billboard Rendering
-```
-
-</details>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚙️ Systems & Core Mechanics</h3>
+      <ul>
+        <li><b>Moment-to-Moment Loops:</b> Intuitive, responsive, and high-retention mechanics.</li>
+        <li><b>Economy & Balance:</b> Resource pacing, difficulty scaling, and systemic depth.</li>
+        <li><b>Player UX & Juice:</b> Impactful feedback (screen shake, haptics, visual cues).</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>💻 Technical Architecture</h3>
+      <ul>
+        <li><b>Unity & C# Engineering:</b> Modular systems built with Design Patterns (FSM, Observer, Factory).</li>
+        <li><b>ScriptableObject Workflows:</b> Clean data-driven architecture for rapid iteration.</li>
+        <li><b>NavMesh & Pathfinding:</b> AI behavior trees and spatial pathing logic.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>✨ Shaders & Technical Art</h3>
+      <ul>
+        <li><b>Custom ShaderLab/HLSL:</b> Stylized renderers, URP post-processing passes.</li>
+        <li><b>2D/3D Hybrid Art Direction:</b> Billboard rendering and dynamic camera setups.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏢 Professional Experience</h3>
+      <ul>
+        <li><b>Current Role:</b> Game Designer at <b>OXON</b>.</li>
+        <li><b>Focus:</b> Prototyping game loops, balancing player systems, and shaping core mechanics.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🛠️ ARSENAL & TECH STACK
+## 🛠️ EQUIPMENT & TOOLKIT
 
 <div align="center">
 
-| Core Hardware & Engine | Tech Stack & Frameworks |
+| Category | Badges |
 | :--- | :--- |
-| ![Unity](https://img.shields.io/badge/Unity_Engine-100000?style=for-the-badge&logo=unity&logoColor=white) | ![C#](https://img.shields.io/badge/C%23_Language-239120?style=for-the-badge&logo=c-sharp&logoColor=white) |
-| ![Rider](https://img.shields.io/badge/JetBrains_Rider-000000?style=for-the-badge&logo=rider&logoColor=white) | ![Git](https://img.shields.io/badge/Git_Version_Control-F05032?style=for-the-badge&logo=git&logoColor=white) |
-
-<br/>
-
-`System Architecture` • `Game Balancing` • `Player Psychology` • `NavMesh AI` • `ShaderLab` • `ScriptableObjects`
+| **Engine & IDE** | ![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white) ![Rider](https://img.shields.io/badge/Rider-000000?style=for-the-badge&logo=rider&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) |
+| **Core Competencies** | `Game Systems` `Level Design` `UX & Juice` `ScriptableObjects` `NavMesh` `ShaderLab` |
 
 </div>
 
 ---
 
-## 🐍 CONTRIBUTION SNAKE ARENA
+## 🐍 CONTRIBUTION ARENA
 
 <div align="center">
 
@@ -124,5 +91,5 @@ Capabilities:
 ---
 
 <div align="center">
-  <sub>Cyberpunk Game Designer Terminal • <b>OXON Game Studio</b> • <code>cerogamedev</code></sub>
+  <sub>Crafted with 🎮 & ☕ by <b>Ceren Gör</b> • Game Designer @ <b>OXON</b></sub>
 </div>
