@@ -1,148 +1,75 @@
 <div align="center">
 
-  <!-- AAA Game AI FSM Debugger HUD Banner -->
-  <img src="assets/cinematic_ai_fsm_banner.jpg" width="100%" alt="Sentinel AI Finite State Machine Debugger" style="border-radius: 12px;" />
-
-  <br/><br/>
-
-  <!-- Live Typing Header -->
+  <!-- Clean Animated Typing Header -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1200&color=00F0FF&center=true&vcenter=true&width=750&height=50&lines=SENTINEL_AI_FSM_v2.4+%7C+OXON+Game+Lab;ROLE%3A+Game+Designer+%26+Systems+Architect+%40+OXON;FEATURE%3A+Real-Time+Finite+State+Machine+Debugger;C%23+%7C+Unity+%7C+State+Pattern+%7C+NavMesh+AI" alt="Game AI FSM Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00F0FF&center=true&vcenter=true&width=650&height=50&lines=cerogamedev%40oxon-lab%3A~%2$+$initiating...;Game+Designer+%40+OXON;Building+Systems%2C+Core+Loops+%26+C%23+Architecture;Unity+%7C+C%23+%7C+ShaderLab+%7C+NavMesh" alt="Typing SVG" />
   </a>
 
   <br/><br/>
 
-  <!-- Quick Badges -->
   <p align="center">
-    <a href="mailto:ingortigno@gmail.com"><img src="https://img.shields.io/badge/AI_CONSOLE-ingortigno%40gmail.com-00F0FF?style=for-the-badge&logo=gmail&logoColor=black" /></a>
-    <a href="https://linkedin.com/in/cerengor" target="_blank"><img src="https://img.shields.io/badge/LINKEDIN-Ceren_Gör-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-    <a href="https://github.com/cerogamedev"><img src="https://img.shields.io/badge/GITHUB-cerogamedev-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+    <a href="mailto:ingortigno@gmail.com"><img src="https://img.shields.io/badge/Console-ingortigno%40gmail.com-00F0FF?style=for-the-badge&logo=gmail&logoColor=black" /></a>
+    <a href="https://linkedin.com/in/cerengor" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Ceren_Gör-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://github.com/cerogamedev"><img src="https://img.shields.io/badge/GitHub-cerogamedev-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   </p>
 
 </div>
 
 <br/>
 
-> *"Game AI is not about beating the player — it is the choreography of tension, reaction, and dynamic pacing."*
-
----
-
-## 🧠 REAL-TIME GAME AI STATE MACHINE SIMULATOR
+## 🖥️ SYSTEM DIAGNOSTICS // NEOFETCH SPEC
 
 ```gcode
-========================================================================================
-[AI CONTROLLER]: SENTINEL_FSM_v2.4 // ACTIVE STATE: ⚡ [CHASE] ⚡
-[LAST TRIGGER]: Handled command by @cerogamedev at 2026-07-27 11:50:30 UTC
-========================================================================================
- [PATROL] -------(Player Spotted)------> [ALERT] --------(Target Locked)------> [>>> CHASE <<<]
-    ^                                                                            |
-    |                                                                            v
- [IDLE] <-------(Target Lost)----------- [SEARCH] <------(Damage Taken)------- [ATTACK]
-========================================================================================
-```
-
-<div align="center">
-
-### 🔘 INTERACTIVE AI STATE CONTROLLER (CLICK TO TRIGGER)
-*Click any interactive button below to trigger a real-time state transition on this profile!*
-
-<p align="center">
-  <a href="https://github.com/cerogamedev/cerogamedev/issues/new?title=fsm:patrol&body=Triggering+AI+State+Transition+to+PATROL"><img src="https://img.shields.io/badge/TRIGGER-PATROL_STATE-FF007F?style=for-the-badge&logo=target&logoColor=white"/></a>
-  <a href="https://github.com/cerogamedev/cerogamedev/issues/new?title=fsm:alert&body=Triggering+AI+State+Transition+to+ALERT"><img src="https://img.shields.io/badge/TRIGGER-ALERT_STATE-FFA500?style=for-the-badge&logo=alert&logoColor=white"/></a>
-  <a href="https://github.com/cerogamedev/cerogamedev/issues/new?title=fsm:chase&body=Triggering+AI+State+Transition+to+CHASE"><img src="https://img.shields.io/badge/TRIGGER-CHASE_STATE-00F0FF?style=for-the-badge&logo=zap&logoColor=black"/></a>
-  <a href="https://github.com/cerogamedev/cerogamedev/issues/new?title=fsm:attack&body=Triggering+AI+State+Transition+to+ATTACK"><img src="https://img.shields.io/badge/TRIGGER-ATTACK_STATE-FF0000?style=for-the-badge&logo=crosshair&logoColor=white"/></a>
-  <a href="https://github.com/cerogamedev/cerogamedev/issues/new?title=fsm:search&body=Triggering+AI+State+Transition+to+SEARCH"><img src="https://img.shields.io/badge/TRIGGER-SEARCH_STATE-9D4EDD?style=for-the-badge&logo=search&logoColor=white"/></a>
-  <a href="https://github.com/cerogamedev/cerogamedev/issues/new?title=fsm:idle&body=Triggering+AI+State+Transition+to+IDLE"><img src="https://img.shields.io/badge/TRIGGER-RESET_IDLE-8B949E?style=for-the-badge&logo=power&logoColor=white"/></a>
-</p>
-
-</div>
-
----
-
-## 💻 GAME AI ARCHITECTURE // C# SOURCE CODE
-
-```csharp
-namespace OXON.GameDesign.AI
-{
-    public enum AIStateType { Idle, Patrol, Alert, Chase, Attack, Search }
-
-    /// <summary>
-    /// Core Finite State Machine Architecture for Game AI Logic in Unity
-    /// Engineered by Ceren Gör (Game Designer @ OXON)
-    /// </summary>
-    public class SentinelAIController : MonoBehaviour
-    {
-        private IAIState _currentState;
-        public AIStateType ActiveState { get; private; }
-
-        [Header("AI State Nodes")]
-        [SerializeField] private PatrolState _patrolState;
-        [SerializeField] private ChaseState _chaseState;
-        [SerializeField] private AttackState _attackState;
-
-        private void Start()
-        {
-            TransitionToState(_patrolState);
-        }
-
-        public void TransitionToState(IAIState newState)
-        {
-            _currentState?.OnExit(this);
-            _currentState = newState;
-            _currentState?.OnEnter(this);
-            ActiveState = newState.Type;
-            
-            Debug.Log($"[SENTINEL AI]: State Transited -> {ActiveState}");
-        }
-    }
-}
+                     .::-::.                     USER        : cerogamedev (Ceren Gör)
+                 .::-        -::.                ROLE        : Game Designer @ OXON
+              .::-              -::.             OS          : OXON Game Lab OS
+           .::-   .-============-.  -::.         ENGINE      : Unity 3D & 2D
+        .::-   .-=================-.  -::.       PRIMARY     : C# / ShaderLab / NavMesh AI
+     .::-   .-=======================-.  -::.    PATTERNS    : FSM, Observer, Factory, ScriptableObjects
+  .::-   .-=============================-.  -::. FOCUS       : Core Loops, System Balance & Visual Juice
+ -==============================================- STATUS      : ☕ Operational
 ```
 
 ---
 
-## 🏛️ 3D ISOMETRIC CONTRIBUTION EXTRUSION ENGINE
+## 🕹️ GAME DESIGN & SYSTEMS ARCHITECTURE
 
-<div align="center">
-
-  <img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="Ceren's 3D Isometric Contribution Engine" />
-
-</div>
-
----
-
-## 🕹️ SYSTEM COMPONENTS & GAME DESIGN MODULES
-
-<details>
-<summary><b>📂 [Component 01]: Game Systems & Core Loops (Click to Expand)</b></summary>
-
-<br/>
-
-- **Core Gameplay Loops:** Moment-to-moment mechanics and long-term meta progression systems.
-- **Game Economy & Balance:** Resource management, difficulty curves (pacing & flow), and mathematical balancing models.
-- **Player Psychology & UX:** Responsive player input with satisfying feedback loops (Juice, Screen Shake, Audio-Visual Cues).
-
-</details>
-
-<details>
-<summary><b>📂 [Component 02]: Technical Design & C# Architecture (Click to Expand)</b></summary>
-
-<br/>
-
-- **Design Patterns in Unity:** State Machines (FSM), Observer Pattern, Command Pattern, Factory Pattern, and ScriptableObject architecture.
-- **Navigation & AI:** NavMesh pathfinding, AI behavior trees, and enemy decision logic.
-- **Clean & Modular Code:** Extensible, clean C# codebase built for seamless developer collaboration.
-
-</details>
-
-<details>
-<summary><b>📂 [Component 03]: Shaders & Technical Art (Click to Expand)</b></summary>
-
-<br/>
-
-- **ShaderLab & Technical Art:** Custom HLSL / ShaderGraph solutions for stylized rendering and gameplay VFX.
-- **2D/3D Hybrid Visuals:** 2D billboard rendering and dynamic visual management within 3D environments.
-
-</details>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚙️ Systems & Mechanics</h3>
+      <ul>
+        <li><b>Core Gameplay Loops:</b> Moment-to-moment mechanics, pacing, and retention systems.</li>
+        <li><b>Game Economy & Balance:</b> Resource management, difficulty curves, and systemic balance.</li>
+        <li><b>Player UX & Juice:</b> Responsive controls, screen shake, and satisfying feedback cues.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>💻 Technical Architecture</h3>
+      <ul>
+        <li><b>Unity C# Engineering:</b> Extensible architecture using OOP and C# Design Patterns.</li>
+        <li><b>ScriptableObject Workflows:</b> Data-driven game architecture for fast iteration.</li>
+        <li><b>NavMesh & AI:</b> Behavior trees, pathfinding, and state machine (FSM) systems.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>✨ Shaders & Technical Art</h3>
+      <ul>
+        <li><b>Custom ShaderLab:</b> Stylized HLSL render passes and URP post-processing pipelines.</li>
+        <li><b>2D/3D Hybrid Visuals:</b> Billboard rendering and camera setups in 3D worlds.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏢 Professional Focus</h3>
+      <ul>
+        <li><b>Current Role:</b> Game Designer at <b>OXON</b>.</li>
+        <li><b>Scope:</b> Prototyping game loops, balancing player systems, and system design.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -150,20 +77,16 @@ namespace OXON.GameDesign.AI
 
 <div align="center">
 
-| Core Hardware & Engine | Tech Stack & Frameworks |
+| Category | Badges |
 | :--- | :--- |
-| ![Unity](https://img.shields.io/badge/Unity_Engine-100000?style=for-the-badge&logo=unity&logoColor=white) | ![C#](https://img.shields.io/badge/C%23_Language-239120?style=for-the-badge&logo=c-sharp&logoColor=white) |
-| ![Rider](https://img.shields.io/badge/JetBrains_Rider-000000?style=for-the-badge&logo=rider&logoColor=white) | ![Git](https://img.shields.io/badge/Git_Version_Control-F05032?style=for-the-badge&logo=git&logoColor=white) |
-
-<br/>
-
-`System Architecture` • `Game Balancing` • `Player Psychology` • `NavMesh AI` • `ShaderLab` • `ScriptableObjects`
+| **Engine & IDE** | ![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white) ![Rider](https://img.shields.io/badge/Rider-000000?style=for-the-badge&logo=rider&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) |
+| **Core Stack** | `System Architecture` `Game Balance` `UX & Juice` `ScriptableObjects` `NavMesh` `ShaderLab` |
 
 </div>
 
 ---
 
-## 🐍 CONTRIBUTION SNAKE ARENA
+## 🐍 CONTRIBUTION ARENA
 
 <div align="center">
 
@@ -178,5 +101,5 @@ namespace OXON.GameDesign.AI
 ---
 
 <div align="center">
-  <sub>Real-Time Game AI State Machine Simulator • <b>OXON Game Studio</b> • <code>cerogamedev</code></sub>
+  <sub>Clean Terminal Spec • <b>OXON Game Studio</b> • <code>cerogamedev</code></sub>
 </div>
