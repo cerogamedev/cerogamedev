@@ -1,16 +1,16 @@
 <div align="center">
 
   <!-- Cyberpunk Waving Animated Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=cyber&color=gradient&customColorList=0,12,24,36&height=220&section=header&text=⚙️%20CEREN%20//%20GAME%20DESIGNER&fontSize=42&fontColor=00F0FF&animation=twinkle&fontAlignY=38" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00F0FF&height=180&section=header&text=CEREN%20//%20GAME%20DESIGNER&fontSize=38&fontColor=000000&animation=twinkle&fontAlignY=40" width="100%" />
 
-  <!-- Multiple Typing SVG Lines -->
+  <!-- Canlı Daktilo Animasyonu (100% Reliable Typing SVG) -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00F0FF&center=true&vcenter=true&width=700&height=50&lines=%3E_SYSTEM_ONLINE%3A+Game+Designer+%40+OXON;%3E_LOADING_MODULES%3A+Game+Systems+%7C+Core+Loops+%7C+C%23;%3E_SPECIALIZATION%3A+Player+UX+%7C+Economy+%7C+Custom+Shaders;%3E_READY%3A+Building+high-impact+player+experiences." alt="Cyberpunk Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1200&color=00F0FF&center=true&vcenter=true&width=700&height=50&lines=SYSTEM_ONLINE%3A+Game+Designer+%40+OXON;LOADING_MODULES%3A+Game+Systems+%7C+Core+Loops+%7C+C%23;SPECIALIZATION%3A+Player+UX+%7C+Economy+%7C+Shaders;READY%3A+Building+high-impact+player+experiences." alt="Cyberpunk Typing SVG" />
   </a>
 
   <br/><br/>
 
-  <!-- Social & Contact Quick Badges -->
+  <!-- Quick Links Badges -->
   <p align="center">
     <a href="mailto:ingortigno@gmail.com"><img src="https://img.shields.io/badge/TERMINAL_EMAIL-ingortigno%40gmail.com-00F0FF?style=for-the-badge&logo=gmail&logoColor=black" /></a>
     <a href="https://linkedin.com/in/cerengor" target="_blank"><img src="https://img.shields.io/badge/LINKEDIN-Ceren_Gör-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -92,7 +92,7 @@ Capabilities:
 
 ---
 
-## 🛠️ ARSENAL & WEAPONRY
+## 🛠️ ARSENAL & TECH STACK
 
 <div align="center">
 
@@ -103,23 +103,8 @@ Capabilities:
 
 <br/>
 
-`System Architecture` • `Game Balancing` `Player Psychology` • `NavMesh AI` • `ShaderLab` • `ScriptableObjects`
+`System Architecture` • `Game Balancing` • `Player Psychology` • `NavMesh AI` • `ShaderLab` • `ScriptableObjects`
 
-</div>
-
----
-
-## 📡 LIVE SYSTEM PERFORMANCE & ACTIVITY
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=cerogamedev&show_icons=true&theme=synthwave&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cerogamedev&layout=compact&theme=synthwave&hide_border=true&hide=html,css" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cerogamedev&theme=synthwave&hide_border=true" />
 </div>
 
 ---
@@ -139,7 +124,5 @@ Capabilities:
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=cerogamedev&color=00F0FF&style=cyberpunk" alt="Profile Views" />
-  <br/>
   <sub>Cyberpunk Game Designer Terminal • <b>OXON Game Studio</b> • <code>cerogamedev</code></sub>
 </div>
