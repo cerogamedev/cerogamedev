@@ -29,21 +29,7 @@
 
 <div align="center">
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg">
-    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-gitblock.svg">
-    <img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="Ceren's 3D Isometric Contribution Engine" />
-  </picture>
-
-</div>
-
----
-
-## 🎛️ LOWLIGHTER DYNAMIC METRICS DASHBOARD
-
-<div align="center">
-
-  <img src="https://github.com/cerogamedev/cerogamedev/blob/main/github-metrics.svg" width="100%" alt="Dynamic Metrics Engine" />
+  <img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="Ceren's 3D Isometric Contribution Engine" />
 
 </div>
 
