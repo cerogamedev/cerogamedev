@@ -1,105 +1,150 @@
-<div align="center">
+<!--
+  cerogamedev/cerogamedev  ·  profile README
+  Assets live in /assets. If an animation ever looks frozen, bump the ?v= number
+  at the end of the image URL — that busts GitHub's image cache (camo).
+-->
 
-  <!-- Clean Animated Typing Header -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00F0FF&center=true&vcenter=true&width=650&height=50&lines=cerogamedev%40oxon-lab%3A~%2$+$initiating...;Game+Designer+%40+OXON;Building+Systems%2C+Core+Loops+%26+C%23+Architecture;Unity+%7C+C%23+%7C+ShaderLab+%7C+NavMesh" alt="Typing SVG" />
-  </a>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/cerogamedev/cerogamedev/main/assets/banner-otherworld.svg?v=1">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cerogamedev/cerogamedev/main/assets/banner-fogworld.svg?v=1">
+    <img alt="Ceren Gör — Game Designer" src="https://raw.githubusercontent.com/cerogamedev/cerogamedev/main/assets/banner-otherworld.svg?v=1" width="100%">
+  </picture>
+</p>
 
-  <br/><br/>
+<p align="center">
+  <a href="mailto:ingortigno@gmail.com"><img src="https://img.shields.io/badge/MAIL-0B0B0C?style=flat-square&labelColor=0B0B0C&color=C41A10" alt="mail"></a>
+  <a href="https://linkedin.com/in/cerengor"><img src="https://img.shields.io/badge/LINKEDIN-0B0B0C?style=flat-square&labelColor=0B0B0C&color=C41A10" alt="linkedin"></a>
+  <a href="https://github.com/cerogamedev?tab=repositories"><img src="https://img.shields.io/badge/31_REPOS-0B0B0C?style=flat-square&labelColor=0B0B0C&color=C41A10" alt="repos"></a>
+  <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-0B0B0C?style=flat-square&labelColor=0B0B0C&color=6E675C" alt="status">
+</p>
 
-  <p align="center">
-    <a href="mailto:ingortigno@gmail.com"><img src="https://img.shields.io/badge/Console-ingortigno%40gmail.com-00F0FF?style=for-the-badge&logo=gmail&logoColor=black" /></a>
-    <a href="https://linkedin.com/in/cerengor" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Ceren_Gör-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-    <a href="https://github.com/cerogamedev"><img src="https://img.shields.io/badge/GitHub-cerogamedev-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  </p>
+<img src="https://raw.githubusercontent.com/cerogamedev/cerogamedev/main/assets/divider.svg?v=1" width="100%" alt="">
 
-</div>
+> **MEMO — found on the desk**
+>
+> I design systems, not screenshots. Economies that hold together after forty hours.
+> Loops that stay interesting on the tenth run. Numbers that feel like something.
+>
+> Everything below is a working state, not a portfolio. Some of it is still bleeding.
 
-<br/>
+<img src="https://raw.githubusercontent.com/cerogamedev/cerogamedev/main/assets/divider.svg?v=1" width="100%" alt="">
 
-## 🖥️ SYSTEM DIAGNOSTICS // NEOFETCH SPEC
+## ▰▰▰ 01 // WHAT I ACTUALLY DO
 
-```gcode
-                     .::-::.                     USER        : cerogamedev (Ceren Gör)
-                 .::-        -::.                ROLE        : Game Designer @ OXON
-              .::-              -::.             OS          : OXON Game Lab OS
-           .::-   .-============-.  -::.         ENGINE      : Unity 3D & 2D
-        .::-   .-=================-.  -::.       PRIMARY     : C# / ShaderLab / NavMesh AI
-     .::-   .-=======================-.  -::.    PATTERNS    : FSM, Observer, Factory, ScriptableObjects
-  .::-   .-=============================-.  -::. FOCUS       : Core Loops, System Balance & Visual Juice
- -==============================================- STATUS      : ☕ Operational
-```
+<details>
+<summary><b>SYSTEMS &amp; ECONOMY</b> — the part nobody screenshots</summary>
 
----
+<br>
 
-## 🕹️ GAME DESIGN & SYSTEMS ARCHITECTURE
+Sink/source modelling, soft-currency curves, progression pacing, difficulty ramps.
+I build the spreadsheet before the prototype, then break the spreadsheet with the prototype.
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚙️ Systems & Mechanics</h3>
-      <ul>
-        <li><b>Core Gameplay Loops:</b> Moment-to-moment mechanics, pacing, and retention systems.</li>
-        <li><b>Game Economy & Balance:</b> Resource management, difficulty curves, and systemic balance.</li>
-        <li><b>Player UX & Juice:</b> Responsive controls, screen shake, and satisfying feedback cues.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>💻 Technical Architecture</h3>
-      <ul>
-        <li><b>Unity C# Engineering:</b> Extensible architecture using OOP and C# Design Patterns.</li>
-        <li><b>ScriptableObject Workflows:</b> Data-driven game architecture for fast iteration.</li>
-        <li><b>NavMesh & AI:</b> Behavior trees, pathfinding, and state machine (FSM) systems.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>✨ Shaders & Technical Art</h3>
-      <ul>
-        <li><b>Custom ShaderLab:</b> Stylized HLSL render passes and URP post-processing pipelines.</li>
-        <li><b>2D/3D Hybrid Visuals:</b> Billboard rendering and camera setups in 3D worlds.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏢 Professional Focus</h3>
-      <ul>
-        <li><b>Current Role:</b> Game Designer at <b>OXON</b>.</li>
-        <li><b>Scope:</b> Prototyping game loops, balancing player systems, and system design.</li>
-      </ul>
-    </td>
-  </tr>
+`resource loops` · `sink/source balance` · `progression curves` · `retention systems` · `tuning passes`
+
+</details>
+
+<details>
+<summary><b>UNITY ARCHITECTURE</b> — so the third designer can still work in it</summary>
+
+<br>
+
+Data-driven setups with ScriptableObjects, so tuning lives in the inspector and not in a merge conflict.
+FSM, Observer and Factory where they earn their place — not everywhere.
+
+`C#` · `ScriptableObject pipelines` · `FSM / behaviour trees` · `NavMesh` · `editor tooling`
+
+</details>
+
+<details>
+<summary><b>FEEL &amp; TECHNICAL ART</b> — the 40ms that decide everything</summary>
+
+<br>
+
+Hit pause, screen shake, camera lag, easing curves. Custom ShaderLab passes and URP post
+for stylised, lo-fi, deliberately-limited looks.
+
+`game feel` · `ShaderLab / HLSL` · `URP post-processing` · `billboard 2D-in-3D` · `PS1-era constraints`
+
+</details>
+
+<img src="https://raw.githubusercontent.com/cerogamedev/cerogamedev/main/assets/divider.svg?v=1" width="100%" alt="">
+
+## ▰▰▰ 02 // STYLE METER
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cerogamedev/cerogamedev/main/assets/style-meter.svg?v=1" width="100%" alt="Style meter">
+</p>
+
+<img src="https://raw.githubusercontent.com/cerogamedev/cerogamedev/main/assets/divider.svg?v=1" width="100%" alt="">
+
+## ▰▰▰ 03 // LOADOUT
+
+<table>
+<tr>
+  <td><b>ENGINE</b></td>
+  <td>
+    <img src="https://img.shields.io/badge/Unity-0B0B0C?style=flat-square&logo=unity&logoColor=C8C0B0" alt="">
+    <img src="https://img.shields.io/badge/C%23-0B0B0C?style=flat-square&logo=csharp&logoColor=C8C0B0" alt="">
+    <img src="https://img.shields.io/badge/ShaderLab-0B0B0C?style=flat-square&logoColor=C8C0B0" alt="">
+    <img src="https://img.shields.io/badge/URP-0B0B0C?style=flat-square&logoColor=C8C0B0" alt="">
+  </td>
+</tr>
+<tr>
+  <td><b>TOOLS</b></td>
+  <td>
+    <img src="https://img.shields.io/badge/Rider-0B0B0C?style=flat-square&logo=rider&logoColor=C8C0B0" alt="">
+    <img src="https://img.shields.io/badge/Blender-0B0B0C?style=flat-square&logo=blender&logoColor=C8C0B0" alt="">
+    <img src="https://img.shields.io/badge/Git-0B0B0C?style=flat-square&logo=git&logoColor=C8C0B0" alt="">
+  </td>
+</tr>
+<tr>
+  <td><b>DESIGN</b></td>
+  <td>
+    <code>economy design</code> <code>core loops</code> <code>balancing</code>
+    <code>systems design</code> <code>game feel</code> <code>level pacing</code>
+  </td>
+</tr>
 </table>
 
----
+<img src="https://raw.githubusercontent.com/cerogamedev/cerogamedev/main/assets/divider.svg?v=1" width="100%" alt="">
 
-## 🛠️ EQUIPMENT & TECH STACK
+## ▰▰▰ 04 // SAVE FILES
 
-<div align="center">
+<table>
+<tr><th align="left">SLOT</th><th align="left">FILE</th><th align="left">NOTE</th></tr>
+<tr>
+  <td><code>&#9632; 01</code></td>
+  <td><a href="https://github.com/cerogamedev/Wake-Up-Program"><b>Wake-Up-Program</b></a></td>
+  <td>A service for waking people who got lost inside their own trauma. Playable.</td>
+</tr>
+<tr>
+  <td><code>&#9632; 02</code></td>
+  <td><a href="https://github.com/cerogamedev/Pocket-Biome"><b>Pocket-Biome</b></a></td>
+  <td>Open-source, PICO-8-flavoured. OOP + patterns. Art drawn by hand.</td>
+</tr>
+<tr>
+  <td><code>&#9632; 03</code></td>
+  <td><a href="https://github.com/cerogamedev/Top-Down-Shooter-Template"><b>Top-Down-Shooter-Template</b></a></td>
+  <td>A clean starting point. Take it, gut it, ship something.</td>
+</tr>
+</table>
 
-| Category | Badges |
-| :--- | :--- |
-| **Engine & IDE** | ![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white) ![Rider](https://img.shields.io/badge/Rider-000000?style=for-the-badge&logo=rider&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) |
-| **Core Stack** | `System Architecture` `Game Balance` `UX & Juice` `ScriptableObjects` `NavMesh` `ShaderLab` |
+<img src="https://raw.githubusercontent.com/cerogamedev/cerogamedev/main/assets/divider.svg?v=1" width="100%" alt="">
 
-</div>
+## ▰▰▰ 05 // TRANSMISSION
 
----
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=cerogamedev&show_icons=true&hide_border=true&bg_color=00000000&title_color=C41A10&text_color=9C958A&icon_color=C41A10&hide_title=true" alt="">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cerogamedev&layout=compact&hide_border=true&bg_color=00000000&title_color=C41A10&text_color=9C958A&langs_count=6" alt="">
+</p>
 
-## 🐍 CONTRIBUTION ARENA
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cerogamedev/cerogamedev/output/github-contribution-grid-snake.svg" width="100%" alt="">
+</p>
 
-<div align="center">
+<img src="https://raw.githubusercontent.com/cerogamedev/cerogamedev/main/assets/divider.svg?v=1" width="100%" alt="">
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cerogamedev/cerogamedev/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cerogamedev/cerogamedev/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/cerogamedev/cerogamedev/output/github-contribution-grid-snake.svg" width="100%">
-  </picture>
-
-</div>
-
----
-
-<div align="center">
-  <sub>Clean Terminal Spec • <b>OXON Game Studio</b> • <code>cerogamedev</code></sub>
-</div>
+<p align="center">
+  <sub><code>cerogamedev</code> · game designer · Istanbul · <i>the fog is not a filter, it is the draw distance</i></sub>
+</p>
