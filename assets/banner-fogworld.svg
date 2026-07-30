@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-label="CEREN GOR — GAME DESIGNER — SYSTEMS AND ECONOMY">
+
+  <defs>
+    <filter id="fw-static" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="1" seed="2" result="n">
+        <animate attributeName="seed" values="1;5;2;9;3;12;6;15;4;11"
+                 dur="0.5s" repeatCount="indefinite" calcMode="discrete"/>
+      </feTurbulence>
+      <feColorMatrix in="n" type="matrix"
+        values="0 0 0 0 0.10
+                0 0 0 0 0.09
+                0 0 0 0 0.08
+                1.1 0 0 0 -0.40"/>
+    </filter>
+
+    <filter id="fw-portal" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.62 0.95" numOctaves="2" seed="7" result="n">
+        <animate attributeName="seed" values="3;8;1;14;6;19;2;10"
+                 dur="0.28s" repeatCount="indefinite" calcMode="discrete"/>
+      </feTurbulence>
+      <feColorMatrix in="n" type="matrix"
+        values="0 0 0 0 0.16
+                0 0 0 0 0.15
+                0 0 0 0 0.13
+                1.6 0 0 0 -0.55"/>
+    </filter>
+
+    <filter id="fw-fog" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.0055 0.013" numOctaves="4" seed="11" result="f">
+        <animate attributeName="baseFrequency"
+                 values="0.0055 0.013; 0.0090 0.0095; 0.0040 0.016; 0.0055 0.013"
+                 dur="34s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feColorMatrix in="f" type="matrix"
+        values="0 0 0 0 0.98
+                0 0 0 0 0.97
+                0 0 0 0 0.94
+                0.95 0.35 0 0 -0.22"/>
+    </filter>
+
+    <pattern id="fw-scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#6E675C" opacity="0.20"/>
+    </pattern>
+
+    <radialGradient id="fw-vig" cx="34%" cy="50%" r="78%">
+      <stop offset="35%" stop-color="#C9C4B6" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#D8D3C6" stop-opacity="0.95"/>
+    </radialGradient>
+
+    <linearGradient id="fw-sweep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#FFFFFF" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <clipPath id="fw-clip"><rect x="0" y="0" width="1000" height="280"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#fw-clip)">
+
+    <rect width="1000" height="280" fill="#C9C4B6"/>
+    <rect width="1000" height="280" filter="url(#fw-fog)" opacity="0.7"/>
+    <rect width="1000" height="280" fill="url(#fw-vig)"/>
+
+    <g>
+      <rect x="742" y="26" width="230" height="228" fill="#B5AFA0"/>
+      <rect x="742" y="26" width="230" height="228" filter="url(#fw-portal)" opacity="0.5"/>
+      <rect x="742" y="26" width="230" height="228" fill="none" stroke="#8C2018" stroke-width="2">
+        <animate attributeName="stroke-opacity"
+                 values="1;0.35;1;1;0.6;1" dur="4.3s" repeatCount="indefinite" calcMode="discrete"/>
+      </rect>
+      <path d="M742 44 L742 26 L760 26 M954 26 L972 26 L972 44 M972 236 L972 254 L954 254 M760 254 L742 254 L742 236"
+            fill="none" stroke="#231F1B" stroke-width="3" opacity="0.8"/>
+      <text x="754" y="246" font-family="'Courier New',Courier,monospace" font-size="11"
+            letter-spacing="2.5" fill="#8C2018" opacity="0.95">REC</text>
+      <circle cx="960" cy="42" r="4" fill="#8C2018">
+        <animate attributeName="opacity" values="1;1;0.1;0.1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g>
+      <animate attributeName="opacity"
+               values="1;1;1;1;1;0.35;1;1;0.75;1;1;1;0.2;1;1;1;1;1"
+               dur="7.5s" repeatCount="indefinite" calcMode="discrete"/>
+
+      <g opacity="0.7">
+        <text font-family="Impact,'Arial Black','Haettenschweiler',sans-serif" font-size="86"
+              letter-spacing="4" fill="#8C2018" x="56" y="132">
+          CEREN GÖR
+          <animate attributeName="x" values="56;51;58;56;56;62;54;56"
+                   dur="3.1s" repeatCount="indefinite" calcMode="discrete"/>
+        </text>
+        <text font-family="Impact,'Arial Black','Haettenschweiler',sans-serif" font-size="86"
+              letter-spacing="4" fill="#2F5A5E" x="56" y="132">
+          CEREN GÖR
+          <animate attributeName="x" values="56;61;53;56;56;50;59;56"
+                   dur="3.1s" repeatCount="indefinite" calcMode="discrete"/>
+        </text>
+      </g>
+
+      <text font-family="Impact,'Arial Black','Haettenschweiler',sans-serif" font-size="86"
+            letter-spacing="4" fill="#1C1A17" x="56" y="132">CEREN GÖR</text>
+
+      <rect x="58" y="152" width="0" height="3" fill="#8C2018">
+        <animate attributeName="width" values="0;560" dur="1.4s" fill="freeze"/>
+      </rect>
+
+      <text font-family="'Courier New',Courier,monospace" font-size="17" font-weight="bold"
+            letter-spacing="5" fill="#3B372F" x="60" y="186">GAME DESIGNER</text>
+      <text font-family="'Courier New',Courier,monospace" font-size="13"
+            letter-spacing="3.4" fill="#5C574C" x="60" y="212">SYSTEM &amp; ECONOMY DESIGN // UNITY // C#</text>
+      <text font-family="'Courier New',Courier,monospace" font-size="13"
+            letter-spacing="3.4" fill="#5C574C" x="60" y="234">OXON GAMES &#183; MONOLITHPULSE</text>
+    </g>
+
+    <rect x="0" y="0" width="1000" height="46" fill="url(#fw-sweep)" opacity="0.35">
+      <animate attributeName="y" values="-60;300" dur="7s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect width="1000" height="280" fill="url(#fw-scan)"/>
+    <rect width="1000" height="280" filter="url(#fw-static)" opacity="0.10"/>
+
+    <rect x="0.5" y="0.5" width="999" height="279" fill="none" stroke="#A39C8D" stroke-width="1"/>
+  </g>
+</svg>
